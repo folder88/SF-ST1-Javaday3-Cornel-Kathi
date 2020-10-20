@@ -1,5 +1,6 @@
 package Kathi;
 
+import ToTry.letsTry;
 import java.util.Scanner;
 
 /**
@@ -49,6 +50,8 @@ public class BasicFour {
     public static void main(String[]args){
 
         leSwitch();  // <---- call the methode for the weekdays
+        letsTry objFour = new letsTry();
+        objFour.BasicFour();
 
     }
 }
