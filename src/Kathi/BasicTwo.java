@@ -1,5 +1,7 @@
 package Kathi;
 
+import ToTry.letsTry;
+
 import java.util.Scanner;
 /**
  * Write a Java program that reads a floating-point number and prints “zero”
@@ -9,10 +11,7 @@ import java.util.Scanner;
 
 public class BasicTwo {
 
-
     public static void main(String[]args){
-
-
 
         Scanner in = new Scanner(System.in);         // <---- var Scanner to get the input
         System.out.println("input some number");
@@ -31,5 +30,8 @@ public class BasicTwo {
         } else {
             System.out.println("positiv");
         }
+
+        letsTry objTwo = new letsTry();
+        objTwo.BasicTwo();
     }
 }
