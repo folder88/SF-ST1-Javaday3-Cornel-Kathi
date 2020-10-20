@@ -38,7 +38,7 @@ public class BasicOne {
 
         //vergleich();
 
-        objHere.BasicOne();
+        //objHere.BasicOne();
 
 
 
