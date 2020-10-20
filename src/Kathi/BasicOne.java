@@ -13,26 +13,26 @@ public class BasicOne {
             Number is positive
         */
 
-    //static String some(int b){
-        //String info = "Number is positiv";
-        //if(b == 25) {
-          // return info;
-        //}
-
-    //}
+    static void info(int b){
+        if(b == 25){
+            System.out.println("positiv");
+        }
+    }
 
     public static void main(String[]args) {
+        //int some = info();
 
+        Scanner in = new Scanner(System.in);
+        System.out.println("enter the number 25");
+        int a = in.nextInt();
 
-        //Scanner in = new Scanner(System.in);
-        //System.out.println("enter the number 25");
-        //int a = in.nextInt();
         //System.out.println("Number is positiv");
-        if(a == 25){
-            System.out.println("Number is positiv");
-        }
 
-        int a = Scanner.in;
+       /* if(a == 25){
+            System.out.println("Number is positiv");
+        }*/
+
+
 
 
     }
