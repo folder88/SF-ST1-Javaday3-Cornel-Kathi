@@ -1,5 +1,7 @@
 package Kathi;
 
+import ToTry.letsTry;
+
 import java.util.Scanner;
 
 /**
@@ -45,6 +47,9 @@ public class BasicThree {
     }
 
     public static void main(String[]args){
+
         weekdays();   //<---- call the method "weekdays"
+        letsTry objThree = new letsTry();
+        objThree.BasicThree();
     }
 }
