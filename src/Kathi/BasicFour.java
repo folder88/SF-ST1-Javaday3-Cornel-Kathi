@@ -6,6 +6,8 @@ import java.util.Scanner;
  * Rewrite the solution task3 with a switch statement.
  */
 
+
+//###################################### methode switch for weekdays
 public class BasicFour {
 
     static void leSwitch(){
@@ -46,7 +48,7 @@ public class BasicFour {
 
     public static void main(String[]args){
 
-        leSwitch();
+        leSwitch();  // <---- call the methode for the weekdays
 
     }
 }
