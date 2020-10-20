@@ -1,4 +1,5 @@
 package Kathi;
+import ToTry.letsTry;
 
 import java.util.Scanner;
 
@@ -33,8 +34,11 @@ public class BasicOne {
 
     public static void main(String[]args) {
         //int some = info();  <---singe comment to comment out
+        BasicOne objHere = new BasicOne();
 
-        vergleich();
+        //vergleich();
+
+        objHere.BasicOne();
 
 
 
