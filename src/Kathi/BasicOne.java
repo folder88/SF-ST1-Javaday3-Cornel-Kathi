@@ -37,7 +37,7 @@ public class BasicOne {
         //int some = info();  <---singe comment to comment out
         letsTry objOne = new letsTry();
 
-        //vergleich();
+        vergleich();
 
        objOne.BasicOne();
 
