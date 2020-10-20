@@ -32,7 +32,7 @@ public class BasicOne {
             System.out.println("Number is positiv");
         }
 
-        int a = Scanner.in
+        int a = Scanner.in;
 
 
     }
