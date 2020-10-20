@@ -1,5 +1,5 @@
 package Kathi;
-import ToTry.letsTry;
+//import ToTry.letsTry;
 
 import java.util.Scanner;
 
@@ -34,20 +34,16 @@ public class BasicOne {
 
     public static void main(String[]args) {
         //int some = info();  <---singe comment to comment out
-        BasicOne objHere = new BasicOne();
+        //BasicOne objHere = new BasicOne();
 
-        //vergleich();
+        vergleich();
 
         //objHere.BasicOne();
-
 
 
        /* if(a == 25){
             System.out.println("Number is positiv");  <-----a mulitiline comment to comment out
         }*/
-
-
-
 
     }
 }
