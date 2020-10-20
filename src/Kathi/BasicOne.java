@@ -19,9 +19,7 @@ public class BasicOne {
         }
     }*/
 
-    public static void main(String[]args) {
-        //int some = info();  <---singe comment to comment out
-
+    static void vergleich(){
         Scanner in = new Scanner(System.in);
         System.out.println("enter a number");
         int a = in.nextInt();
@@ -31,6 +29,12 @@ public class BasicOne {
         } else {
             System.out.println("Number is negativ");
         }
+    }
+
+    public static void main(String[]args) {
+        //int some = info();  <---singe comment to comment out
+
+        vergleich();
 
 
 

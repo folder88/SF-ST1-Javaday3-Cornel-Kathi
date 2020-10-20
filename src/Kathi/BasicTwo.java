@@ -1,17 +1,18 @@
 package Kathi;
 
 import java.util.Scanner;
+/**
+ * Write a Java program that reads a floating-point number and prints “zero”
+ * if the number is zero. Otherwise, print “positive” or “negative”.                              <--- the doc comment
+ * Add “small” if the value of the number is less than 1, or “large” if it exceeds 1,000,000.
+ */
 
 public class BasicTwo {
 
 
     public static void main(String[]args){
 
-        /**
-         * Write a Java program that reads a floating-point number and prints “zero”
-         * if the number is zero. Otherwise, print “positive” or “negative”.                              <--- the doc comment
-         * Add “small” if the value of the number is less than 1, or “large” if it exceeds 1,000,000.
-         */
+
 
         Scanner in = new Scanner(System.in);         // <---- var Scanner to get the input
         System.out.println("input some number");
